@@ -1,0 +1,38 @@
+// _navBar.scss
+
+.navBar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    li{
+        background-color: blueviolet;
+    }
+    .titulo {
+        font-size: 2em;
+        margin-bottom: 0.5em;
+
+        .subTitulo {
+            font-size: 1.2em;
+            margin-bottom: 1em;
+
+            .rutas__navBar {
+                display: flex;
+                flex-direction: row;
+                gap: 10px;
+                a {
+                    text-decoration: none;
+                    color: #fff;
+                    padding: 8px 16px;
+                    background-color: #555;
+                    border-radius: 5px;
+
+                    &:hover {
+                        background-color: #777;
+                    }
+                }
+            }
+        }
+    }
+}
